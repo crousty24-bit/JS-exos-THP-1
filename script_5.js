@@ -13,6 +13,12 @@ const books = [
   { title: 'Guerre et Paix', id: 748147, rented: 19 }
 ];
 
+console.log("Here is the list of all books :")
+let list = books.map(function(n){
+  return `${n.title}`
+})
+console.log(list)
+
 console.log("Have all books been rented at least once ?")
 let rented = books.filter(function(n){
   if (n.rented >= 1) {
