@@ -38,7 +38,7 @@ let leastRented = books.reduce(function(a, b){
     return b
   } 
 },);
-console.log(`The most rented book is "${leastRented.title}" : rented ${leastRented.rented} times !`)
+console.log(`The least rented book is "${leastRented.title}" : rented ${leastRented.rented} times !`)
 
 console.log("Find book ID: 873495")
 let findBook = books.find(item => item.id === 873495);
