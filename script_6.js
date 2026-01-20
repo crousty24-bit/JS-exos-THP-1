@@ -23,9 +23,8 @@ function translateRNA(arn) {
 
 const arn1 = "CCGUCGUUGCGCUACAGC";
 const arn2 = "CCUCGCCGGUACUUCUCG";
+const arn3 = "UCCCCCUUGUUCCGCUAC";
 
 console.log(translateRNA(arn1));
 console.log(translateRNA(arn2));
-
-
-
+console.log(translateRNA(arn3));
